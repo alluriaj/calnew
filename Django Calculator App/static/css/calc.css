@@ -1,3 +1,4 @@
+
 table{
     margin-left:auto; 
     margin-right:auto;
@@ -11,7 +12,47 @@ textarea{
     border-radius: 5px;
  }
 
- button{
- 	height: 40px;
- 	width: 40px;
- }
+ button {
+    height: 40px;
+    width: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #b0c4de; /* Light Steel Blue */
+}
+
+button:active {
+    background-color: #d4d4d4;
+}
+
+button.btn-danger {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+}
+
+button.btn-danger:hover {
+    background-color: #b0c4de; /* Light Steel Blue */
+}
+
+button.btn-default {
+    background-color: #f9f9f9;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+button.btn-default:hover {
+    background-color: #b0c4de; /* Light Steel Blue */
+}
+
+button.btn-default:active {
+    background-color: #d4d4d4;
+}
